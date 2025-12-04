@@ -1,8 +1,8 @@
-package com.example.Swagger.service;
+package com.example.Swagger;
 
+import com.example.Swagger.service.EmailService;
 import com.icegreen.greenmail.store.FolderException;
 import com.icegreen.greenmail.util.GreenMail;
-import com.icegreen.greenmail.util.ServerSetup;
 import jakarta.mail.internet.MimeMessage;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
