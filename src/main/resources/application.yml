@@ -40,22 +40,22 @@ spring:
         spring.json.trusted.packages: "com.example.Swagger.dto"
         spring.json.type.mapping: userEvent:com.example.Swagger.dto.UserEvent
 
+
   mail:
-    host: smtp.gmail.com
-    port: 587
-    username: your-email@gmail.com
-    password: your-app-password
+    host: localhost
+    port: 1025
+    username:
+    password: 
     protocol: smtp
     default-encoding: UTF-8
     properties:
-      mail:
-        smtp:
-          auth: true
-          starttls:
-            enable: true
-          connectiontimeout: 5000
-          timeout: 5000
-          writetimeout: 5000
+      mail.smtp:
+        auth: false
+        starttls:
+          enable: false
+        connectiontimeout: 5000
+        timeout: 5000
+        writetimeout: 5000
 
 app:
   email:
